@@ -1,4 +1,4 @@
-package com.posibolt.tmdbclient.presentation.di
+package com.posibolt.tmdbclient.presentation.di.core
 
 import com.posibolt.tmdbclient.data.db.ArtistDao
 import com.posibolt.tmdbclient.data.db.MovieDao

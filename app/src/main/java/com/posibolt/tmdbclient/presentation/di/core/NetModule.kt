@@ -1,4 +1,4 @@
-package com.posibolt.tmdbclient.presentation.di
+package com.posibolt.tmdbclient.presentation.di.core
 
 import com.posibolt.tmdbclient.data.api.TMDBService
 import dagger.Module

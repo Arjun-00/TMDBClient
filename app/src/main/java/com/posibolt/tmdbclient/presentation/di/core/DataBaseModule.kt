@@ -1,4 +1,4 @@
-package com.posibolt.tmdbclient.presentation.di
+package com.posibolt.tmdbclient.presentation.di.core
 
 import android.content.Context
 import androidx.room.Room
