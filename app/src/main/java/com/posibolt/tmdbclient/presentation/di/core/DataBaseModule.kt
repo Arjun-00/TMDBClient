@@ -6,9 +6,11 @@ import com.posibolt.tmdbclient.data.db.ArtistDao
 import com.posibolt.tmdbclient.data.db.MovieDao
 import com.posibolt.tmdbclient.data.db.TMDBDatabase
 import com.posibolt.tmdbclient.data.db.TvShowDao
+import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
 
+@Module
 class DataBaseModule {
     @Singleton
     @Provides

@@ -6,7 +6,9 @@ import com.posibolt.tmdbclient.presentation.di.movie.MovieSubComponent
 import com.posibolt.tmdbclient.presentation.di.tvshow.TvShowSubComponent
 import dagger.Module
 import dagger.Provides
+import dagger.Subcomponent
 import javax.inject.Singleton
+//@Subcomponent.Factory
 @Module(subcomponents = [MovieSubComponent::class,ArtistSubComponent::class,TvShowSubComponent::class])
 class AppModule(private val context: Context) {
 

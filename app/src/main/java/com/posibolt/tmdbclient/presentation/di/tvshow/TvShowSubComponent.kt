@@ -8,6 +8,7 @@ interface TvShowSubComponent {
 
     fun inject(artistsActivity: ArtistsActivity)
 
+    @Subcomponent.Factory
     interface Factory{
         fun create():TvShowSubComponent
     }
