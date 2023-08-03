@@ -19,9 +19,9 @@ import javax.inject.Inject
 
 class TvShowActivity : AppCompatActivity() {
     @Inject
-    private lateinit var binding : ActivityTvShowBinding
     lateinit var factory: TvShowViewModelFactory
     private lateinit var tvShowViewModel: TvShowViewModel
+    private lateinit var binding : ActivityTvShowBinding
     private lateinit var adapter : TvShowAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

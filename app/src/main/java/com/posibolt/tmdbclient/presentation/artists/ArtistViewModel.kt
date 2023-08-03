@@ -5,7 +5,7 @@ import androidx.lifecycle.liveData
 import com.posibolt.tmdbclient.domain.usercase.GetArtistUserCase
 import com.posibolt.tmdbclient.domain.usercase.UpdateArtistUserCase
 
-class AristViewModel(
+class ArtistViewModel(
     private val getArtistUserCase: GetArtistUserCase,
     private val updateArtistUserCase: UpdateArtistUserCase
 ) : ViewModel() {

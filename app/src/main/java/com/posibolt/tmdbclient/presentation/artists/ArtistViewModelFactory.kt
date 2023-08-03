@@ -10,6 +10,6 @@ class ArtistViewModelFactory(
     private val updateArtistUserCase: UpdateArtistUserCase
 ) : ViewModelProvider.Factory{
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        return AristViewModel(getArtistUserCase, updateArtistUserCase) as T
+        return ArtistViewModel(getArtistUserCase, updateArtistUserCase) as T
     }
 }
